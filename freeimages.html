@@ -107,7 +107,9 @@
         }
 
         .results {
+            width: 98vw;
             margin-top: 10px;
+            overflow: hidden;
             /* background-color: rgb(71, 145, 230); */
         }
 
@@ -119,7 +121,14 @@
         .results #fetched-images img {
             padding: 0px 10px 10px 10px;
         }
-
+        
+        .results #fetched-videos {
+            text-align: center;
+        }
+        .results #fetched-videos embed {
+            padding: 0px 10px 10px 10px;
+        }
+        
         label {
             color: white;
         }
@@ -127,6 +136,17 @@
         .options {
             margin-top: 20px;
         }
+        
+         @media only screen and (max-width: 450px) {
+            .search-bar input[type="button"] {
+                width: 25vw;
+            }
+
+            .search-bar input[type="text"] {
+                width: 40vw;
+            }
+        }
+        
     </style>
 </head>
 
