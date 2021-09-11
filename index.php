@@ -1,1 +1,1 @@
-<?php include 'freeimages.html'?>
+<?php include 'page.html'?>
